@@ -1,90 +1,630 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <title>Your Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #282c37;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156431940-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
 
-        header {
-            background-color: #1c1f26;
-            padding: 20px 0;
-            text-align: center;
-        }
+     gtag('config', 'UA-156431940-1');
+   </script>
 
-        header h1 {
-            font-size: 36px;
-            margin: 0;
-        }
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+    <title>Thomas Lai | 賴劭愉</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="og:title" content="Thomas Lai | 賴劭愉">
+    <meta property="og:url" content="http://astro1.panet.utoledo.edu/~thomaslai/index.html">
+    <meta property="og:image" content="http://astro1.panet.utoledo.edu/~thomaslai/images/portfolio/modals/m-IC63_Goldman.png" />
+    
+   <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        nav {
-            background-color: #1c1f26;
-            text-align: center;
-            padding: 10px 0;
-        }
+    <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            margin: 0 20px;
-        }
+   <!-- Script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+   <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="TL_logo.png" >
 
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .content {
-            background-color: #343844;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 20px 0;
-        }
-
-        footer {
-            background-color: #1c1f26;
-            text-align: center;
-            padding: 20px 0;
-            color: #777;
-        }
-    </style>
 </head>
+
 <body>
-    <header>
-        <h1>Your Name</h1>
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </nav>
-    <div class="container">
-        <div class="content">
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+             <li><a class="smoothscroll" href="#about">CV</a></li>
+            <li><a class="smoothscroll" href="#research">Research</a></li>
+            <li><a class="smoothscroll" href="#personal">Personal</a></li>
+            <!-- <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Thomas Lai.</h1>
+            <h3>I am a postdoctoral scholar at Caltech/IPAC. Please scoll down and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/thomas.lai.7773"><i class="fa fa-facebook"></i></a></li>
+               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+               <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+               <li><a href="https://www.linkedin.com/in/thomas-lai-3a187a130/"><i class="fa fa-linkedin"></i></a></li>
+               <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+               <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+               <!-- <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+            </ul>
+         </div>
+      </div>
+      
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic" src="images/profilepic.jpg" alt="" style="border-radius: 50%; width:170px; height: 170px"/>
+
+         </div>
+
+         <div class="nine columns main-col">
+
             <h2>About Me</h2>
-            <p>Your introduction and information about yourself go here.</p>
-        </div>
-        <div class="content">
-            <h2>My Portfolio</h2>
-            <p>Showcase your work and projects here.</p>
-        </div>
-        <div class="content">
-            <h2>Contact Me</h2>
-            <p>Contact information and a contact form go here.</p>
-        </div>
-    </div>
-    <footer>
-        &copy; 2023 Your Website. All rights reserved.
-    </footer>
+
+            <p>My name is Thomas Lai（賴劭愉). I am a postdoctoral scholar at Caltech/IPAC, collaborating with Dr. Lee Armus. My current research interests include undertanding the starburst-AGN connection and how they impact the ambient interstellar medium through fueling and feedback processes, constraining the mid-infrared extinction profile, studying dust properties under different environments, and building models for spectral decomposition.<p>
+
+            <p>
+            I received my PhD at the University of Toledo, working with <a href="https://www.utoledo.edu/nsm/physast/facstaff/_People/_Facpages/faJDSmith.html" target="_blank">Prof. JD Smith</a> and <a href="https://www.utoledo.edu/nsm/physast/facstaff/_People/_Facpages/faWitt.html" target="_blank">Prof. Adolf Witt</a> on the behavior of dust grains in interstellar space, with the thesis entitled: "Exploring Small Dust Grains Across Different Galaxy Environments." I received my bachelor degree in Space Science & Engineering from National Central University, Taiwan. Later on, I was more intrigued by the distant Universe and decided to switch field from space science to astronomy. Prior to my graduate study, I worked as a research assistant with <a href="https://www.asiaa.sinica.edu.tw/people/cv.php?i=ciska" target="_blank">Ciska Kemper</a> at <a href="https://www.asiaa.sinica.edu.tw/" target="_blank">ASIAA</a>, where I found my interest in studying the interstellar medium. 
+
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+                           <span>Thomas Lai</span><br>
+                     <span>MC 314-6 (Keith Spalding Building)<br>
+                           1200 E California Blvd, Pasadena, CA 91125
+                     </span><br>
+                           <!-- <span>(123)456-7890</span><br> -->
+                     <span>shaoyu AT ipac.caltech.edu</span>
+                       </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="docs/TL_CV_Apr2023.pdf" class="button"><i class="fa fa-download"></i> Curriculum Vitae</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Research Section
+   ================================================== -->
+   <section id="research">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Research</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>All About Dust</h3>
+                  <!-- <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p> -->
+
+                  <p>
+                  I am interested in understanding the properties of the dust grains in interstellar space. How do those grains form? How do they get destroyed? How can they survive in the harsh interstellar environment? We know that interstellar dust grains in galaxies absorb energy from starlight and reradiate at optical and infrared (IR) wavelengths. Almost half of all the non-primordial radiation in the Universe has gone through such re-emitting process. Thus dust plays an integral role in galaxy evolution and star formation, regulating the flow of radiative energy across the galaxies.</p>
+
+                  <p>
+                  In particular, my research has been focusing on the behaviors of the <i>small</i> dust grains by studying spectra from polycyclic aromatic hydrocarbons (PAHs), extended red emission (ERE), and diffuse interstellar bands (DIBs). One key question yet to be answered about these small interstellar grains is: how do these small and fragile particles survive in such harsh UV radiation fields near sites of star-formation. To address this issue, I performed a detailed investigation of a sample of 437 extragalactic objects with complete spectral coverage from 2.5—38 μm drawn from an exhaustive cross-archival match between the AKARI IRC point source catalog and the Infrared Database of Extragalactic Observables from Spitzer (IDEOS) catalog. My main focus is on the 3.3 µm PAH emission since among all the other PAH bands, it serves as the best tracer of the smallest grains. 
+                  </p>
+                  
+                  <p>
+                  I also worked on the DIBs and ERE. Both of these two phenomena share a common mystery: even though they have been observed for decades and extensive research had been conducted, the carriers of these two interstellar phenomena are still unidentified. In the past, DIBs and ERE were being studied separately. But in my study, I discovered they have quite a lot of properties in common, making us to wonder whether they shared similar origin.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Research Interests</h3>
+                  <!-- <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p> -->
+
+                  <p>
+                  <ul style="list-style-type:circle;">
+                    <li>Behaviors of small dust grains in interstellar space</li>
+                    <li>The survival of grains in environments with penetrating UV radiation fields</li>
+                    <li>Modeling dust features in the mid-infared (MIR) spectra</li>
+                    <li>Preparing science for the upcoming JWST mission</li>
+                    <li>Constraining MIR extinction curve</li>
+                  </ul>
+                  
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+
+
+      </div> <!-- End Education -->
+   </section>
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out My Research. Please click on the images below for more detail.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+               <div class="columns portfolio-item"> <!-- 1 -->
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/template.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>All the PAHs</h5>
+                              <p>Spitzer-AKARI Cross-Archival Spectroscopic Survey of Aromatic Emission in Galaxies</p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> <!-- item end -->
+
+               <div class="columns portfolio-item"> <!-- 2 -->
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/all_the_PAH.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>PAHFIT: a mid-infrared decomposition tool</h5>
+                              <p></p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> <!-- item end -->
+
+               <div class="columns portfolio-item"> <!-- 3 -->
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/Lai2019_IC63.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>The connection between the DIBs and ERE</h5>
+                              <p>Are the carriers of DIBs and ERE the same?</p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> <!-- item end -->
+
+               <div class="columns portfolio-item"> <!-- 4 -->
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/IC63_bw.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>ERE in IC63 and IC59</h5>
+                              <p></p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> <!-- item end -->
+
+               <div class="columns portfolio-item"> <!-- 5 -->
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/num_DEIMOS.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>Keck/DEIMOS</h5>
+                              <p>Instrumentation</p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> <!-- item end -->               
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+          --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+              <img class="scale-with-grid" src="images/portfolio/modals/m-template.png" alt="" />
+
+              <div class="description-box">
+                  <h4>All the PAHs (ASESS)</h4>
+                  <p>I am the builder of the AKARI-Spitzer Extragalactic Spectral Survey (ASESS), which consists of 378 extragalactic objects with wavelength coverage ranging from 2.5-38 µm. This catalog is drawn from an exhaustive cross-archival comparison between the AKARI Infrared Camera point source catalog and the Infrared Database of Extragalactic Observables from Spitzer (IDEOS) catalog. The above shows a set of template spectra created by averaging the galaxies in our sample, with the classification following: <a href="https://iopscience.iop.org/article/10.1086/511268" target="_blank">Spoon et al. (2007)</a>
+                  </p>
+              </div>  
+
+              <img class="scale-with-grid" src="images/portfolio/modals/m-IIZw40.png" alt="" />
+
+              <div class="description-box">
+                  <h4>Small grains survive under harsh interstellar condition</h4>
+                  <p>The combined spectrum of II Zw 40, a prototypical blue compact dwarf (BCD), containing a super star cluster and dominated by a giant HII region. The fact that the 3.3 µm PAH emission can be readily detected in such a hostile and low metallicity environment is surprising. Small grains may not be as fragile as we expected.</a>
+                  </p><span class="categories"><i class="fa fa-tag"></i>ISM, PAH</span>
+              </div>  
+
+            <div class="link-box">
+               <a href="https://ui.adsabs.harvard.edu/abs/2020arXiv201005034L/abstract">Details</a> 
+                 <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+              <img class="scale-with-grid" src="images/portfolio/modals/m-all_the_PAH.png" alt="" />
+
+              <div class="description-box">
+                  <h4>A modified version of PAHFIT available from 2.5 - 38 micron</h4>
+                  <p>The mid-infrared (MIR) spectrum of galaxies provides a wealthy inventory of various rich features, including emission lines and absorption features that governed by the dust and gas in their interstellar medium (ISM). To characterize the properties of these emission/absorption features, We modified PAHFIT, a mid-infrared (MIR) spectral decomposition tool, to enable it to fit spectra down to 2.5 µm.</p>
+              </div>  
+              
+              <img class="scale-with-grid" src="images/portfolio/modals/m-Lai2019_PAHFIT.png" alt="" />
+
+              <div class="description-box">
+                  The figure shows the capability of the modified version of PAHFIT together with the corresponding features included in the model. The black squares are the data, and the green line is our model fit. All the extracted dust features are shown in blue.</p>
+               <span class="categories"><i class="fa fa-tag"></i>ISM, PAH, PAHFIT</span>
+              </div>
+
+            <div class="link-box">
+               <a href="https://github.com/PAHFIT/pahfit">Details</a>
+                 <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+              <img class="scale-with-grid" src="images/portfolio/modals/m-Lai2019_IC63.png" alt="" />
+
+              <div class="description-box">
+                  <h4>Detection of the ERE and DIBs from a single line of sight </h4>
+                  <p>DIBs are a set of ubiquitous absorption features, which have been observed towards stars and galaxies with intervening ISM. It was suggested that both the ERE and DIBs are of common origin, and in our paper (Lai et al. 2020), we found evidence to support this hypothesis. For the first time, we are able to detect DIBs from the line of sight towards the reflection nebula where the peak emission of ERE resides. We further found that DIB 4428 seen through the PDR of IC 63 is exceptionally strong and wide compared to normal lines of sight through the typical diffuse ISM. This implies that DIB carriers survive in environments where the UV radiation field is several hundred times stronger than in normal interstellar space.</p>
+              </div>
+
+              <img class="scale-with-grid" src="images/portfolio/modals/m-width4428.png" alt="" />
+
+              <div class="description-box">
+                  <h4>An exceptional wide DIB4428 profile from IC 63 star #46</h4>
+                  <p>The above figure shows the fitted Lorentzian profiles of our DIB4428 observations together with the Cyg OB2 association measurements by Snow et al. 2002. The sightline towards star #46 in IC63 (red), where we simultaneously observed DIBs and ERE, shows the broadest absorption feature among all. </p>
+               <span class="categories"><i class="fa fa-tag"></i>ERE, DIBs</span>
+              </div>
+
+
+            <div class="link-box">
+               <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.5853L/abstract">Details</a> 
+                 <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+              <img class="scale-with-grid" src="images/portfolio/modals/m-IC63_Goldman.png" alt="" />
+
+              <div class="description-box">
+                  <h4>Extended Red Emission in IC63 and IC59</h4>
+                  <p>We analyzed new wide-field, wide- and narrow-band optical images of IC 59 and IC 63, two nebulae which are externally illuminated by the early B-star γ Cas, with the objective of mapping the extended red emission (ERE), a dust-related photoluminescence process that is still poorly understood, in these two clouds. The spatial distribution of the ERE relative to the direction of the incident radiation and relative to other emission processes, whose carriers and excitation requirements are known, provides important constraints on the excitation of the ERE.</p>
+              </div>
+
+              <img class="scale-with-grid" src="images/portfolio/modals/m-IC63_layering.png" alt="" />
+
+              <div class="description-box">
+                  The map in grayscale shows one of the two brightest ERE filaments in IC 63. The arrow indicates the direction of the incoming radiation. The ERE filaments are located immediately behind the hydrogen ionization front traced by Hα emission (blue) and in front of the ionized PAHs (red). ERE resides in the front ends of the peak emission of neutral PAHs (cyan) and pure molecular hydrogen rotational lines (dashed gray). Based on this layering geometry, we conclude that the photon energy required to excite the ERE is in the range of 11 eV < E < 13.6 eV. </p>
+               <span class="categories"><i class="fa fa-tag"></i>ERE, IC63</span>
+              </div>
+
+            <div class="link-box">
+               <a href="https://ui.adsabs.harvard.edu/abs/2017MNRAS.469.4933L/abstract">Details</a>
+                 <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+              <img class="scale-with-grid" src="images/portfolio/modals/m-num_DEIMOS.png" alt="" />
+
+              <div class="description-box">
+                  <h4>DEIMOS: number of throughput taken in the past</h4>
+                  <p>The project that I worked on as a Keck Visiting Scholar. Please find the latest DEIMOS throughput curves from: <a href="https://www2.keck.hawaii.edu/inst/deimos/ripisc.html" target="_blank">https://www2.keck.hawaii.edu/inst/deimos/ripisc.html</a></p>
+               <span class="categories"><i class="fa fa-tag"></i>Keck/DEIMOS</span>
+              </div>
+
+            <div class="link-box">
+               <a href="https://www2.keck.hawaii.edu/inst/deimos/ripisc.html">Details</a>
+                 <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div><!-- modal-05 End -->
+
+      </div> <!-- row End -->
+   </section> <!-- Portfolio Section End-->
+
+   <!-- Personal Section
+   ================================================== -->
+   <section id="personal">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>PERSONAL</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <!-- <h3>Ph.D candidate, Physics & Astronomy</h3>
+                  <p class="info">Univeristy of Toledo <span>&bull;</span> <em class="date">Aug. 2014 - Now</em></p> -->
+
+                  <p>
+                  In my leisure time I enjoy hiking and photographing. Here are some photos that I took at places that I have been to in the past.
+
+                  </p>
+                  <div class="row">
+                    <div class="column">
+                      <img src="images/photography/DSCF1104_1.JPG" alt="Subway" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="images/photography/DSCF1302.JPG" alt="HorseShoe" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="images/photography/DSCF0647_1.JPG" alt="Zion" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="column">
+                      <img src="images/photography/DSCF0627.JPG" alt="Zion" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="images/photography/DSCF0618.JPG" alt="" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="images/photography/DSCF3889_1.JPG" alt="PictureRock" style="width:100%">
+                    </div>
+                  </div>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Personal -->
+   <!-- </section> -->
+
+
+
+   </section> <!-- Personal Section End-->
+
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <!-- <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get Hosting.</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h2>
+            <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+                    Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>.  -->
+                    <!-- Simply type    the promocode in the box labeled “Promo Code” when placing your order. --></p>
+
+   <!--       </div>
+
+         <div class="three columns action">
+
+            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
+
+         </div>
+
+      </div> -->
+
+   <!-- </section> --> <!-- Call-To-Action Section End-->
+
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>You do not have to sit outside in the dark. If, however, you want to look at the stars, you will find that darkness is necessary. But the stars neither require nor demand it.
+                           </p>
+                           <cite>Annie Dillard</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <!-- <li>
+                        <blockquote>
+                           <p>
+                           </p>
+                           <cite>Mr. Adobe</cite>
+                        </blockquote>
+                     </li> --> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <!--
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+            -->
+
+            <ul class="copyright">
+               <li>&copy; Thomas Lai</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+               <li>Image by Ken Crawford & STScI</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
